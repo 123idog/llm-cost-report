@@ -1,0 +1,17 @@
+{
+  "name": "llm-cost-report",
+  "version": "0.1.0",
+  "description": "What your LLM app costs per conversation and per result, and where the money leaks. Reads Langfuse traces.",
+  "main": "src/index.js",
+  "bin": { "llm-cost": "bin/llm-cost.js" },
+  "files": ["src", "bin"],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/generate-demo.js && node bin/llm-cost.js compare examples/demo-v1.json examples/demo-v2.json --success score:qualified"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["llm", "langfuse", "cost", "finops", "observability", "ai-agents", "chatbot", "prompt-caching"],
+  "author": "Ido Guy",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/123idog/llm-cost-report.git" }
+}

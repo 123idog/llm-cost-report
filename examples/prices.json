@@ -1,0 +1,5 @@
+{
+  "model-large": { "input": 2.5, "cachedInput": 0.25, "output": 10 },
+  "model-medium": { "input": 0.8, "cachedInput": 0.08, "output": 3.2 },
+  "model-small": { "input": 0.15, "cachedInput": 0.0375, "output": 0.6 }
+}
