@@ -33,8 +33,6 @@ Three ideas behind the tool:
 2. **Find the leak before cutting the model.** Uncached prompts and oversized models usually cost more than the model choice itself.
 3. **Never sum around missing data.** Calls without a cost, incomplete exports and unscored conversations are reported, not silently treated as zero.
 
-The reasoning is in [LLM Evaluation in Production, chapter 8](https://github.com/123idog/llm-evaluation-in-production/blob/main/docs/08-measuring-cost.md).
-
 ---
 
 ## Quick start
